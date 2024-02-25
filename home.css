@@ -1,0 +1,111 @@
+html,body{
+    margin:0px;
+    padding:0px;
+
+}
+nav{
+    height: 10%;
+    padding:0px;
+    margin:0px;
+    /* positon:fixed; */
+}
+
+ul{
+    background-color: rgb(173, 185, 255); 
+    overflow: hidden;
+    list-style-type: none;
+    margin-top: 0px;
+    margin-bottom:0px
+}
+li{
+    float: right;
+
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 24px;
+    text-decoration: none;
+    font-family: "Luckiest Guy", cursive;
+    font-size:15px;
+    font-style: normal;
+}
+li a:hover{
+    background-color: rgb(201, 209, 255);
+}
+li a:focus{
+    background-color: rgb(201, 209, 255);
+}
+.lowerhalf{
+    display: flex;
+    background-color: rgb(173, 185, 255) ;
+}
+.logo{
+    height:80%;
+    width: 80%;
+    margin:0px;
+
+}
+.logo img{
+    height:100%;
+    width:100%;
+    float: left;
+    margin:0px;
+}
+.main{
+    background-color: rgb(55, 61, 97);
+    padding:99px;
+
+}
+.copyright{
+    margin:0px;
+    padding:0px;
+    font-family: "Original Surfer", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size:15px
+}
+body{
+    background-color: rgb(201, 209, 255);
+}
+h1{
+    font-family: "Original Surfer", sans-serif;
+    font-weight: 400;
+    font-style: normal;      
+    font-size:100px;
+    text-align:center;
+    margin:0px;
+    color: rgb(201, 209, 255);
+}
+.lavender{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 100%;
+    margin:0px;
+}
+h2{
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    margin:0px;
+    color: white
+}
+.words{
+    float:right;
+}
+.words p{
+        font-family: "Didact Gothic", sans-serif;
+        font-weight: 400;
+        font-style: normal; 
+        font-size: 20px;
+        text-align: center;   
+        color: rgb(75, 85, 144);
+        float:right;
+        margin:50px;
+        height:25%;
+
+}
